@@ -20,6 +20,8 @@
   "@else"
 ] @keyword.conditional
 
+"!optional" @keyword.modifier
+
 [
   "@while"
   "@each"

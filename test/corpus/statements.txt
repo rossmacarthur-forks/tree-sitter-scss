@@ -463,6 +463,37 @@ Placeholder extensions preserve following declarations and nested rules
         (plain_value)))))
 
 ==============================
+Optional placeholder, class and type extensions
+==============================
+
+.card {
+  @extend %interactive !optional;
+  @extend .button !optional;
+  @extend button !optional;
+  color: red;
+}
+
+---
+
+(stylesheet
+  (rule_set
+    (selectors
+      (class_selector
+        (class_name)))
+    (block
+      (extend_statement
+        (placeholder
+          (identifier)))
+      (extend_statement
+        (class_selector
+          (class_name)))
+      (extend_statement
+        (plain_value))
+      (declaration
+        (property_name)
+        (plain_value)))))
+
+==============================
 Apply statements
 ==============================
 

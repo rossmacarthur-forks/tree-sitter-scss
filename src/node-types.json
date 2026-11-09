@@ -3941,6 +3941,10 @@
     "named": false
   },
   {
+    "type": "!optional",
+    "named": false
+  },
+  {
     "type": "\"",
     "named": false
   },
