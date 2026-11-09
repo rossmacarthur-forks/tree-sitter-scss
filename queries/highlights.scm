@@ -60,6 +60,8 @@
 
 (variable) @variable
 
+(placeholder) @variable
+
 (argument) @variable.parameter
 
 (arguments
